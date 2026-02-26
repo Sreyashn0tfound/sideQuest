@@ -9,7 +9,7 @@ import { Send, Sparkles, X, MessageCircle } from 'lucide-react-native';
 // 🔴 CONFIGURATION
 const BOT_ID = '00000000-0000-0000-0000-000000000001';
 // ⚠️ SECURITY WARNING: Do not share this key publicly or commit to GitHub!
-const GROQ_API_KEY = ""; 
+const GROQ_API_KEY = "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"; 
 
 export default function SupportChat({ visible, onClose, userId }: { visible: boolean, onClose: () => void, userId: string }) {
   const [messages, setMessages] = useState<any[]>([]);
